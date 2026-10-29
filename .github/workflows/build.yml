@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Ekstrak LaylaBot-tanpa-github.zip
+      - name: Ekstrak tes.zip
         run: |
           unzip -o tes.zip
           if [ -d LaylaBot ]; then cp -r LaylaBot/. . ; fi
